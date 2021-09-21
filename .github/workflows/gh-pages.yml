@@ -1,4 +1,4 @@
-name: GitHub Pages Netlify CMS
+name: GitHub Pages Ghost CMS
 
 on:
   push:

@@ -18,7 +18,7 @@ module.exports = withPlugins([
   {
   assetPrefix: '/ghost-frontend/',
   basePath: '/ghost-frontend',
-  pageExtensions: ["tsx"],
+  pageExtensions: ["tsx", 'js'],
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push(
       ...[
