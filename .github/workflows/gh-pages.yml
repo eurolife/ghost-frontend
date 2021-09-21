@@ -40,6 +40,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_token: ${{ secrets.GHOST_CMS_UPDATE }}
           token: ${{ secrets.GHOST_CMS_UPDATE }}
           publish_dir: ./dist
