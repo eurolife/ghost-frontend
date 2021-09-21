@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+// import Head from 'next/head'
+// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react'
 import { getPosts } from '../lib/posts'

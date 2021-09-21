@@ -37,4 +37,25 @@ module.exports = withPlugins([
   },
 }
 ]);
+// module.exports = {
+//   assetPrefix: '/ghost-frontend/',
+//   basePath: '/ghost-frontend',
+//   pageExtensions: ["tsx", 'js'],
+//   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+//     config.module.rules.push(
+//       ...[
+//         {
+//           test: /\.yml$/,
+//           type: "json",
+//           use: "yaml-loader",
+//         },
+//         {
+//           test: /\.svg$/,
+//           use: "@svgr/webpack",
+//         },
+//       ]
+//     );
+//     return config;
+//   },
+// }
 
