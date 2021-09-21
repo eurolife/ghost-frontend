@@ -40,6 +40,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
-          api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
+          github_token: ${{ secrets.GHOST_CMS_UPDATE }}
+          token: ${{ secrets.GHOST_CMS_UPDATE }}
           publish_dir: ./dist
